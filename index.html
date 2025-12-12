@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Babacar Diakite | Business Intelligence Analyst</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description"
+          content="Operational analytics portfolio using SQL Server and Power BI by Business Intelligence Analyst Babacar Diakite." />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <header class="top-nav">
+        <div class="nav-container">
+            <!-- Logo / Brand -->
+            <div class="nav-logo">
+                <span class="nav-logo-mark">BD</span>
+                <span class="nav-logo-text">Babacar Diakite</span>
+            </div>
+
+            <!-- Nav Links -->
+            <nav class="nav-links">
+                <a href="#hero">Home</a>
+                <a href="#skills">Skills</a>
+                <a href="#project">Project</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <!-- Theme Toggle -->
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                🌙
+            </button>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="hero" class="hero">
+        <div class="hero-inner fade-in">
+            <!-- Left: Text -->
+            <div class="hero-text">
+                <p class="hero-kicker">Business Intelligence Portfolio</p>
+                <h1>Babacar Diakite</h1>
+                <h2>Business Intelligence Analyst</h2>
+
+                <p class="hero-subtitle">
+                    I design end-to-end BI solutions that turn raw operational data into clear, actionable insights —
+                    using SQL Server for the data layer and Power BI for interactive dashboards.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#project" class="btn primary">View Operational Analysis Project</a>
+                    <a href="#contact" class="btn ghost">Contact Me</a>
+                </div>
+
+                <div class="hero-tags">
+                    <span>SQL Server</span>
+                    <span>Power BI</span>
+                    <span>Operational Analytics</span>
+                </div>
+            </div>
+
+            <!-- Right: Profile -->
+            <div class="hero-profile">
+                <div class="hero-photo-wrapper">
+                    <img src="assets/profile.jpg" alt="Photo of Babacar Diakite" class="hero-photo" />
+                </div>
+                <div class="hero-profile-card">
+                    <p class="hero-profile-title">Flagship Project</p>
+                    <p class="hero-profile-name">Operational Analysis Dashboard</p>
+                    <p class="hero-profile-meta">SQL Server · Star Schema · Power BI</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+        <div class="section-inner">
+            <h3 class="section-title">Core Skills</h3>
+            <p class="section-subtitle">
+                Practical BI skills that translate directly into operational and executive reporting.
+            </p>
+
+            <div class="skills-grid">
+                <div class="skill-card">SQL Server / T-SQL</div>
+                <div class="skill-card">Star Schema &amp; Data Modeling</div>
+                <div class="skill-card">ETL &amp; Data Engineering</div>
+                <div class="skill-card">Power BI Dashboards</div>
+                <div class="skill-card">DAX Measures &amp; KPIs</div>
+                <div class="skill-card">Operational &amp; Manufacturing Analytics</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECT SECTION -->
+    <section id="project" class="section section-alt">
+        <div class="section-inner">
+            <h3 class="section-title">Operational Analytics Project</h3>
+            <p class="section-subtitle">
+                End-to-end BI solution using SQL Server (data model + ETL) and Power BI (3-page report).
+            </p>
+
+            <div class="project-grid">
+                <!-- CARD 1 – SUMMARY DASHBOARD -->
+                <div class="project-card slide-up">
+                    <h4>Executive Summary Dashboard</h4>
+
+                    <img
+                        src="Operational_Analysis/PowerBI/SUMMARY DASHBOARD.png"
+                        alt="Summary Dashboard in Power BI showing KPIs and on-time delivery trend"
+                        class="project-image"
+                    />
+
+                    <p>
+                        High-level KPIs for Total Output, Quality %, Defect Rate, On-Time Delivery %, and
+                        Absenteeism, with a monthly KPI table and region selector for leadership review.
+                    </p>
+
+                    <div class="project-buttons">
+                        <a href="Operational_Analysis/PowerBI/SUMMARY DASHBOARD.png"
+                           target="_blank" class="btn-view">
+                            View Full Image
+                        </a>
+                        <a href="Operational_Analysis/SQL/05_Analytical_Queries.sql"
+                           target="_blank" class="btn-code">
+                            View Analytical SQL
+                        </a>
+                        <a href="Operational_Analysis/Documentation/Project_Overview.md"
+                           target="_blank" class="btn-doc">
+                            Project Overview
+                        </a>
+                    </div>
+                </div>
+
+                <!-- CARD 2 – OPERATIONS INSIGHT -->
+                <div class="project-card slide-up delay-1">
+                    <h4>Operations Insight Dashboard</h4>
+
+                    <img
+                        src="Operational_Analysis/PowerBI/Operation_Insight_Dasboard.png"
+                        alt="Operations Insight Dashboard showing downtime by shift, region and machine"
+                        class="project-image"
+                    />
+
+                    <p>
+                        Detailed downtime analysis by YearMonth, Region, Machine and Shift Type.
+                        Built to identify bottlenecks and support decisions on staffing and maintenance.
+                    </p>
+
+                    <div class="project-buttons">
+                        <a href="Operational_Analysis/PowerBI/Operation_Insight_Dasboard.png"
+                           target="_blank" class="btn-view">
+                            View Full Image
+                        </a>
+                        <a href="Operational_Analysis/SQL/03_Load_Facts.sql"
+                           target="_blank" class="btn-code">
+                            View Fact Load SQL
+                        </a>
+                        <a href="Operational_Analysis/SQL/02_Load_Dimensions.sql"
+                           target="_blank" class="btn-doc">
+                            View Dimension Loads
+                        </a>
+                    </div>
+                </div>
+
+                <!-- CARD 3 – QUALITY & MACHINE PERFORMANCE -->
+                <div class="project-card slide-up delay-2">
+                    <h4>Quality &amp; Machine Performance</h4>
+
+                    <img
+                        src="Operational_Analysis/PowerBI/Quality_Machine_Performance.png"
+                        alt="Quality and Machine Performance Dashboard with OEE and defect trends"
+                        class="project-image"
+                    />
+
+                    <p>
+                        Quality-focused view showing Defect Rate %, Total Defects, Yield %, OEE % by machine,
+                        and defects per product. Supports continuous improvement and root-cause analysis.
+                    </p>
+
+                    <div class="project-buttons">
+                        <a href="Operational_Analysis/PowerBI/Quality_Machine_Performance.png"
+                           target="_blank" class="btn-view">
+                            View Full Image
+                        </a>
+                        <a href="Operational_Analysis/SQL/04_Validation_Queries.sql"
+                           target="_blank" class="btn-code">
+                            View Validation SQL
+                        </a>
+                        <a href="Operational_Analysis/Documentation/Business_Questions.md"
+                           target="_blank" class="btn-doc">
+                            Business Questions
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DATA MODEL & FILES -->
+            <div class="docs-panel">
+                <h4>Data Model &amp; Documentation</h4>
+                <ul class="docs-list">
+                    <li>
+                        <a href="Operational_Analysis/Documentation/Data_Model.png" target="_blank">
+                            Data Model Diagram (Star Schema)
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Operational_Analysis/Documentation/SQL_Queries.md" target="_blank">
+                            SQL Query Documentation
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Operational_Analysis/SQL/01_Create_Tables.sql" target="_blank">
+                            01_Create_Tables.sql
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Operational_Analysis/README.md" target="_blank">
+                            Project README
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+        <div class="section-inner">
+            <h3 class="section-title">About Me</h3>
+            <div class="about-grid">
+                <p class="about-text">
+                    I’m <strong>Babacar Diakite</strong>, a Business Intelligence Analyst focused on practical,
+                    operations-driven analytics. I enjoy working close to the data: designing tables, writing SQL,
+                    validating results, and building Power BI dashboards that managers can actually use.
+                </p>
+                <p class="about-text">
+                    This project simulates a manufacturing-style environment with production, quality, logistics,
+                    and HR data. It was built end-to-end in SQL Server and Power BI to showcase the full BI lifecycle:
+                    data modeling, ETL, validation, KPI design, and report development.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-alt">
+        <div class="section-inner">
+            <h3 class="section-title">Contact</h3>
+            <p class="section-subtitle">
+                Open to BI / Data Analyst roles where SQL Server and Power BI are core tools.
+            </p>
+
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <h4>Email</h4>
+                    <a href="mailto:babacar.diakite01@gmail.com">
+                        babacar.diakite01@gmail.com
+                    </a>
+                </div>
+
+                <div class="contact-card">
+                    <h4>LinkedIn</h4>
+                    <a href="https://www.linkedin.com/in/babacar-diakite-684194151/"
+                       target="_blank" rel="noreferrer">
+                        linkedin.com/in/babacar-diakite-684194151
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <p>© <span id="year"></span> Babacar Diakite · Business Intelligence Analyst</p>
+        </div>
+    </footer>
+
+    <!-- THEME + YEAR SCRIPT -->
+    <script>
+        // Footer year
+        document.getElementById("year").textContent = new Date().getFullYear();
+
+        // Dark mode toggle
+        const toggle = document.getElementById("theme-toggle");
+        const body = document.body;
+
+        // Load saved theme
+        const savedTheme = localStorage.getItem("theme");
+        if (savedTheme === "dark") {
+            body.classList.add("dark-mode");
+            toggle.textContent = "☀️";
+        }
+
+        toggle.addEventListener("click", () => {
+            body.classList.toggle("dark-mode");
+            const isDark = body.classList.contains("dark-mode");
+            toggle.textContent = isDark ? "☀️" : "🌙";
+            localStorage.setItem("theme", isDark ? "dark" : "light");
+        });
+    </script>
+</body>
+</html>
